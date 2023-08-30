@@ -9,7 +9,7 @@ import Exchanges from "@/components/home/exchanges";
 import SideBanner from "@/components/home/side-banner";
 import KoinPertukaran from "@/components/home/koin-pertukaran";
 
-export default function HomePage() {
+export default function Home() {
   return (
     <main className="max-w-7xl mx-auto py-5 px-10">
       <TopBanner />

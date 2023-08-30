@@ -54,7 +54,7 @@ const Navbar = () => {
       <section className="flex items-center gap-x-2.5">
         <Link
           href="/sign-in"
-          className="w-[90px] h-10 rounded-sm bg-brand-red text-brand-white font-semibold text-sm flex items-center justify-center"
+          className="w-[90px] h-10 rounded-sm bg-brand-red text-brand-white font-semibold text-sm flex items-center justify-center hover:bg-brand-red/80 transition-colors"
         >
           Masuk
         </Link>
