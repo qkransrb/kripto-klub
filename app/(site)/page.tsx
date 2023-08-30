@@ -7,6 +7,7 @@ import CredentialsLogin from "@/components/home/credentials-login";
 import Perhatian from "@/components/home/perhatian";
 import Exchanges from "@/components/home/exchanges";
 import SideBanner from "@/components/home/side-banner";
+import KoinPertukaran from "@/components/home/koin-pertukaran";
 
 export default function HomePage() {
   return (
@@ -23,6 +24,7 @@ export default function HomePage() {
           <Perhatian />
           <Exchanges />
           <SideBanner />
+          <KoinPertukaran />
         </div>
       </div>
       <BottomBanner />

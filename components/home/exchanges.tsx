@@ -41,7 +41,7 @@ const Exchanges = () => {
   ];
 
   return (
-    <div className="grid grid-cols-3 h-[160px] w-full bg-brand-white">
+    <section className="grid grid-cols-3 h-[160px] w-full bg-brand-white">
       {exchanges.map((exchange) => (
         <div key={exchange.label} className="flex items-center justify-center">
           <Image
@@ -53,7 +53,7 @@ const Exchanges = () => {
           />
         </div>
       ))}
-    </div>
+    </section>
   );
 };
 

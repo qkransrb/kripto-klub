@@ -16,7 +16,7 @@ const RekomensasiHariIni = () => {
         <ChevronRight size={16} />
       </Link>
       <div>
-        {Array.from({ length: 10 }).map((_, index) => (
+        {Array.from({ length: 15 }).map((_, index) => (
           <Link
             href="/"
             key={`rekomensasi-hari-ini-${index}`}
